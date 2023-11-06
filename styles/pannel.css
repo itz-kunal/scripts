@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 /* Hero section styles */
 .hero {
-    background-image: url('../images/data.jpeg');
+    background-image: url('https://itz-kunal.github.io/tech-images/data.jpeg');
     background-size: cover;
     background-position: center;
     color: #fff;
