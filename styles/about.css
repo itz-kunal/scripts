@@ -1,0 +1,52 @@
+/* 
+=================================
+   About Page Design 
+=================================
+  */
+.about-banner-section {
+    background: #fe5f26;
+    min-height: 50vh;
+    background:url('../images/up-back1.jpg') no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.about-section .container {
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 15px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.about-banner-section .about-banner-content h1 {
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 7%;
+    right: 0;
+    text-align: left;
+}
+
+.about-section p {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+.col-lg-6 .img-fluid{
+    max-height: 500px;
+    border-radius: 10px;
+}
+.col-lg-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:560px){
+    .about-section{
+        padding: 12px;
+    }
+    .px-5{
+       padding-left: 5px !important;
+       padding-right: 5px !important;
+    }
+}
