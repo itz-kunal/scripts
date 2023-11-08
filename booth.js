@@ -63,3 +63,20 @@ document.querySelectorAll('a').forEach((links) => {
         }
     });
 })
+
+
+// =======================For qetting Pre written quote with referral code=========================
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlReferral = urlParams.get("ref");
+        let addReferralMsg = `Hi there! I'm interested in your web and app development services. 🚀 I'd love to learn more and get a quote for my project. Can you provide me with some details and an estimate? 📊  My referral code is -- ${urlReferral}
+
+                      Looking forward to your response!` ;
+        let packageQuote=document.querySelectorAll('.btnCtr .sm-btn');
+        packageQuote.forEach((i)=>{
+            i.href=i.href+'?text='+addReferralMsg;
+        });
+
+        document.querySelector('.estimate').href=document.querySelector('.estimate').href+'?text='+addReferralMsg;
+        document.querySelectorAll('.sheprate')[1].href= document.querySelectorAll('.sheprate')[1].href+`?subject=Enquiry for website &body=${addReferralMsg}`;
+        document.querySelectorAll('.fixedSocial a')[0].href= document.querySelectorAll('.fixedSocial a')[0].href+'?text='+addReferralMsg;
+        document.querySelectorAll('.fixedSocial a')[1].href= document.querySelectorAll('.fixedSocial a')[1].href+`?subject=Enquiry for website &body=${addReferralMsg}`;
