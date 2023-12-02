@@ -186,12 +186,12 @@ nav .sheprate {
         padding: 0 20px;
     }
 
-    .logo img {
+/*     .logo img {
         box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.18);
         border-radius: 10px;
         background: #1f1f1f96;
         margin: 10px 0;
-    }
+    } */
 
     header {
         display: none;
@@ -346,6 +346,7 @@ nav .sheprate {
 @media(max-width:1081px) {
     .card-left-content {
         margin: 0px;
+        margin-bottom: 20px;
     }
 
     .header {
@@ -761,6 +762,7 @@ nav .sheprate {
     left: 20px;
     bottom: 20px;
     display: flex;
+    z-index:12;
 }
 
 .fixedContact .img {
@@ -1190,7 +1192,11 @@ nav .sheprate {
         width: 100%;
     }
 }
-
+@media(max-width:958px) {
+    .quote{
+        position: initial;
+    }
+}
 @media (max-width: 576px) {
     header {
         font-size: 75%;
