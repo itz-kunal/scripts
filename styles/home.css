@@ -1091,10 +1091,10 @@ nav .sheprate {
         font-size: 1rem;
     }
 
-    header .logo img {
+/*     header .logo img {
         max-width: 3rem;
     }
-
+ */
     .sheprate i {
         font-size: 0.9rem;
     }
@@ -1208,10 +1208,10 @@ nav .sheprate {
         margin: 0 5px;
     }
 
-    header .logo img {
+/*     header .logo img {
         max-width: 2.5rem;
     }
-
+ */
     .sheprate i {
         font-size: 0.8rem;
     }
